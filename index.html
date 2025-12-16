@@ -3,38 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <title>یاد متین</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <style>
       body {
         font-family: Tahoma, sans-serif;
         background: #f5f5f5;
         text-align: center;
         direction: rtl;
+        margin: 0;
       }
+
       h1 {
-        margin-top: 30px;
+        margin-top: 25px;
       }
+
+      .subtitle {
+        color: #666;
+        margin-bottom: 30px;
+      }
+
       .album {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        padding: 30px;
+        max-width: 600px;
+        margin: auto;
+        padding: 0 15px;
       }
+
       .card {
         background: white;
-        border-radius: 12px;
+        border-radius: 14px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        padding: 15px;
+        margin-bottom: 25px;
+        padding: 12px;
       }
+
       img {
         width: 100%;
-        border-radius: 10px;
+        border-radius: 12px;
       }
+
       p {
-        margin-top: 10px;
+        margin: 12px 0 5px;
         color: #555;
+        font-size: 15px;
       }
+
       footer {
-        margin: 40px 0;
+        margin: 40px 0 20px;
         color: #777;
         font-size: 14px;
       }
@@ -42,12 +57,12 @@
   </head>
   <body>
     <h1>🕊️ یاد متین عزیز</h1>
-    <p>همیشه در قلب‌هامون زنده‌ای</p>
+    <p class="subtitle">همیشه در قلب‌هامون زنده‌ای</p>
 
     <div class="album">
       <div class="card">
         <img src="photo1.jpg" />
-        <p>لبخندت هیچ‌وقت از یادمون نمی‌ره</p>
+        <p>لبخندت همیشه با ماست</p>
       </div>
 
       <div class="card">
